@@ -1,17 +1,23 @@
-*{
+* {
     text-align: center;
 }
+
 a {
     text-decoration: none;
-  color:#000000
+    color: #000000
 }
-p { 
+
+a:hover:not(.MH1) {
+    text-shadow: 0 1px 10px rgba(184, 255, 190, 100);
+}
+
+p {
     font-size: 20px;
 }
-.p1{
-    
-}
-.navbar{
+
+.p1 {}
+
+.navbar {
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: repeat(3, 1fr);
