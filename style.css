@@ -1,6 +1,6 @@
 * {
     text-align: center;
-    background-color: rgba(255, 249, 232)
+    background-color: rgba(255, 249, 232);
 }
 
 a {
@@ -9,7 +9,7 @@ a {
 }
 
 a:hover:not(.MH1) {
-    text-shadow: 0 1px 10px rgba(184, 255, 190, 100);
+    text-shadow: 0 1px 10px rgba(255, 247, 133,100);
 }
 
 p {
@@ -23,5 +23,14 @@ p {
     grid-template-rows: auto;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 0px;
-    padding: 20px 0;
+    padding: 10px 0;
+}
+.nlink{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30px; 
+    /*not done with this styling at all*/
+    background-color: rgba(196, 196, 185,50);
 }
