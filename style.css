@@ -16,7 +16,6 @@ a:hover:not(.MH1) {
 p {
     font-size: 20px;
 }
-
 .navbar {
     display: grid;
     grid-template-rows: auto;
@@ -34,4 +33,17 @@ p {
     height: 40px;
     /*not done with this styling at all*/
     background-color: rgba(196, 196, 185, 50);
+}
+img:hover:not(.fairmont) {
+    webkit-filter:blur(4px);
+    filter:blur(4px);
+    
+}
+.fairmont{
+    padding: 20px 0;
+    
+}
+.sname{
+    border-color: crimson;
+    
 }
