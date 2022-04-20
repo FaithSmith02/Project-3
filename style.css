@@ -1,6 +1,7 @@
 * {
     text-align: center;
     background-color: rgba(255, 249, 232);
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -9,14 +10,12 @@ a {
 }
 
 a:hover:not(.MH1) {
-    text-shadow: 0 1px 10px rgba(255, 247, 133,100);
+    text-shadow: 0 1px 10px rgba(255, 247, 133, 100);
 }
 
 p {
     font-size: 20px;
 }
-
-.p1 {}
 
 .navbar {
     display: grid;
@@ -25,12 +24,14 @@ p {
     grid-gap: 0px;
     padding: 10px 0;
 }
-.nlink{
+
+.nlink {
     font-size: 18px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 30px; 
+    top: 10px;
+    height: 40px;
     /*not done with this styling at all*/
-    background-color: rgba(196, 196, 185,50);
+    background-color: rgba(196, 196, 185, 50);
 }
