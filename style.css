@@ -16,6 +16,21 @@ a:hover:not(.MH1) {
 p {
     font-size: 20px;
 }
+.MH1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    background-image: linear-gradient
+        (to right,
+    #44107a,
+    #ff1361,
+    #fff800
+  );
+
+}
 .h2fs{
     color: black;
     cursor: 
