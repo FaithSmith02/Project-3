@@ -2,7 +2,6 @@
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
-
 a {
     text-decoration: none;
     color: #000000
@@ -15,21 +14,33 @@ a:hover:not(.MH1) {
 p {
     font-size: 20px;
 }
-.MH1{
+h1{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 50px;
-    text-transform: uppercase;
-    background-image: linear-gradient
-        (to right,
-    #44107a,
-    #ff1361,
-    #fff800
-  );
-
 }
+.Gheader{
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, red,yellow,blue,green);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-size: 300%;
+    background-position: -100%;
+    animation: animatedHeader 3s infinite alternate-reverse;
+}
+
+@keyframes animatedHeader{
+    from{
+        background-position:0%;
+    }
+    to{
+        background-position: 100%;
+    }
+}
+
 .h2fs{
     color: black;
     cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>✨</text></svg>")
