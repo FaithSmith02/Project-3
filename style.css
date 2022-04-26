@@ -21,24 +21,13 @@ h1{
     text-align: center;
     font-size: 50px;
 }
+h2{
+    font-size: 30px;
+}
 .Gheader{
     text-transform: uppercase;
-    background-image: linear-gradient(to right, red,yellow,blue,green);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    background-size: 300%;
-    background-position: -100%;
-    animation: animatedHeader 3s infinite alternate-reverse;
-}
-
-@keyframes animatedHeader{
-    from{
-        background-position:0%;
-    }
-    to{
-        background-position: 100%;
-    }
+    text-shadow: 0 1px 10px rgba(35, 222, 54);
+    
 }
 
 .h2fs{
@@ -49,26 +38,35 @@ h1{
     text-decoration: none;
 }
 .navbar {
+    text-transform: uppercase;
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 0px;
     padding: 10px 0;
     align-items: center;
+    background-image: linear-gradient(to right, red,pink,purple,blue);
+    border-radius: 25px;
+   
 }
 
 .nlink {
     font-size: 18px;
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    top: 10px;
-    height: 40px;
+    height: 2px;
     /*not done with this styling at all*/
-    background-color: rgba(196, 196, 185, 50);
+   
+    
+}
+img:not(.fairmont) {
+    filter:blur(4px);
+    
 }
 img:hover:not(.fairmont) {
-    filter:blur(4px);
+    filter:blur(0);
     
 }
 .ltext{
