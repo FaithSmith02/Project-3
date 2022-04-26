@@ -39,6 +39,9 @@ footer{
     bottom: 0;
     
 }
+.workdiv{
+    background-color: green;
+}
 .Gheader{
     text-transform: uppercase;
     text-shadow: 0 1px 10px rgba(35, 222, 54);
