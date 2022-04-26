@@ -33,6 +33,12 @@ img:hover:not(.fairmont) {
     filter:blur(0);
     
 }
+footer{
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    
+}
 .Gheader{
     text-transform: uppercase;
     text-shadow: 0 1px 10px rgba(35, 222, 54);
