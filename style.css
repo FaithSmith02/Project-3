@@ -135,4 +135,9 @@ footer{
     border-radius: 25px;
     padding: 30px;
 }
-
+.writeup{
+    text-transform: none;
+}
+.minidiv{
+    background-color: white !important; 
+}
