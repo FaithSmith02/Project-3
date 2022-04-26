@@ -3,6 +3,7 @@
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
 }
+
 a {
     text-decoration: none;
     color: #000000
@@ -15,61 +16,86 @@ a:hover:not(.MH1) {
 p {
     font-size: 20px;
 }
-h1{
+
+h1 {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 50px;
 }
-h2{
+
+h2 {
     font-size: 30px;
 }
-img:not(.rosaparks){
+
+img:not(.rosaparks) {
     border-radius: 50%;
 }
+.rosaparks{
+    filter: blur(0px) !important;
+    cursor: zoom-in
+}
 img:not(.fairmont) {
-    filter:blur(4px);
-    
-}
-img:hover:not(.fairmont) {
-    filter:blur(0);
-    box-shadow: 0 1px 20px rgba(255, 89, 0);
-    
-}
-footer{
-    position: fixed;
-    left: 50%;
-    bottom: 0;
-    
+    filter: blur(4px);
+
 }
 
-.Gheader{
+img:hover:not(.fairmont) {
+    filter: blur(0);
+    box-shadow: 0 1px 20px blue;
+
+}
+
+.large {
+    width: 175px;
+    height: 175px;
+    position: absolute;
+    border-radius: 100%;
+    display: none;
+}
+
+.small {
+    display: block;
+}
+
+.pad {
+    padding: 15px;
+}
+
+.Gheader {
     text-transform: uppercase;
     text-shadow: 0 1px 10px rgba(35, 222, 54);
-    
+
 }
-.empty{
+
+.empty {
     padding: 40px;
 }
-.workdiv{
+
+.workdiv {
     padding: 20px;
-    background-color: rgba(132, 3, 252,0.7) !important;
+    background-color: rgba(132, 3, 252, 0.7) !important;
     border-radius: 25px;
     color: white !important;
 }
-.h2fs{
+
+#h2pad {
+    padding: 5px;
+}
+
+.h2fs {
     color: black;
-    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🎨</text></svg>")
-      16 0,
-    auto;
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🎨</text></svg>") 16 0,
+        auto;
     text-decoration: none;
 }
-.submissions{
-   cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>✨</text></svg>")
-      16 0,
-    auto; 
+
+.submissions {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>✨</text></svg>") 16 0,
+        auto;
 }
+
 .navbar {
     text-transform: uppercase;
     display: grid;
@@ -78,9 +104,9 @@ footer{
     grid-gap: 0px;
     padding: 10px 0;
     align-items: center;
-    background-image: linear-gradient(to right, red,pink,purple,blue);
+    background-image: linear-gradient(to right, red, pink, purple, blue);
     border-radius: 25px;
-   
+
 }
 
 .nlink {
@@ -91,37 +117,44 @@ footer{
     justify-content: center;
     height: 2px;
     /*not done with this styling at all*/
-   
-    
+
+
 }
-.submissions{
+
+.submissions {
     color: blue;
 }
-.about{
+
+.about {
     padding: 10px;
-    background-color: rgba(59, 184, 31,0.6);
+    background-color: rgba(59, 184, 31, 0.6);
     border-radius: 25px;
-    
+
 }
-.fullsp{
+
+#fullsp {
     border-color: pink;
-    border-width: medium;
+    SS border-width: medium;
     border-radius: 25px;
 }
-#bilingualsch{
+
+#bilingualsch {
     color: green;
 }
-#scroll{
-    background-color: rgba(255, 255, 84,0.7);
+
+#scroll {
+    background-color: rgba(255, 255, 84, 0.7);
     border-radius: 15px;
     padding: 5px;
     color: green;
 }
-.ltext{
+
+.ltext {
     text-align: left;
     color: white;
 }
-.overflow{
+
+.overflow {
     height: 250;
     width: auto;
     overflow: auto;
@@ -129,15 +162,20 @@ footer{
     border-radius: 25px;
     background-color: green;
 }
-.contact{
+
+.contact {
     background-color: rgba(255, 201, 242);
     color: white;
     border-radius: 25px;
     padding: 30px;
 }
-.writeup{
+
+.writeup {
     text-transform: none;
 }
-.minidiv{
-    background-color: white !important; 
+
+.minidiv {
+    background-color: mintcream !important;
+    padding: 1px;
+    border-radius: 25px;
 }

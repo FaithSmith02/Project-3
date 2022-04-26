@@ -63,4 +63,4 @@ jQuery(document).ready(function ($) {
             }
         }
     })
-})
+});
