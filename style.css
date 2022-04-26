@@ -81,7 +81,7 @@ img:hover:not(.fairmont) {
 }
 
 #h2pad {
-    padding: 5px;
+    padding: 10px;
 }
 
 .h2fs {
@@ -177,5 +177,10 @@ img:hover:not(.fairmont) {
 .minidiv {
     background-color: mintcream !important;
     padding: 1px;
+    border-radius: 25px;
+}
+.recent{
+    background-color: rgba(255, 255, 84,0.5);
+    padding: 10px;
     border-radius: 25px;
 }
