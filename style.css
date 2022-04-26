@@ -1,5 +1,6 @@
 * {
     text-align: center;
+    text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
 }
 a {
@@ -24,6 +25,14 @@ h1{
 h2{
     font-size: 30px;
 }
+img:not(.fairmont) {
+    filter:blur(4px);
+    
+}
+img:hover:not(.fairmont) {
+    filter:blur(0);
+    
+}
 .Gheader{
     text-transform: uppercase;
     text-shadow: 0 1px 10px rgba(35, 222, 54);
@@ -32,10 +41,15 @@ h2{
 
 .h2fs{
     color: black;
-    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>✨</text></svg>")
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🎨</text></svg>")
       16 0,
     auto;
     text-decoration: none;
+}
+.submissions{
+   cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>✨</text></svg>")
+      16 0,
+    auto; 
 }
 .navbar {
     text-transform: uppercase;
@@ -61,19 +75,30 @@ h2{
    
     
 }
-img:not(.fairmont) {
-    filter:blur(4px);
+.submissions{
+    color: blue;
+}
+.about{
+    padding: 10px;
+    background-color: rgba(59, 184, 31,0.6);
+    border-radius: 25px;
     
 }
-img:hover:not(.fairmont) {
-    filter:blur(0);
-    
+#scroll{
+    background-color: pink;
+    border-radius: 15px;
+    padding: 5px;
 }
 .ltext{
     text-align: left;
+    color: white;
 }
 .overflow{
     height: 250;
     width: auto;
     overflow: auto;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: rgba(0,0,222);
 }
+
