@@ -46,7 +46,7 @@ img:hover:not(.fairmont) {
     box-shadow: 0 1px 20px blue;
 
 }
-
+/*jquerystuff*/
 .large {
     width: 175px;
     height: 175px;
@@ -62,7 +62,7 @@ img:hover:not(.fairmont) {
 .pad {
     padding: 15px;
 }
-
+/*end of jquery stuff*/
 .Gheader {
     text-transform: uppercase;
     text-shadow: 0 1px 10px rgba(35, 222, 54);
