@@ -83,10 +83,10 @@ img:hover:not(.fairmont) {
     color: white !important;
 }
 .projdiv{
-    border-color: pink !important;
     border-width: thick!important;
     border-radius: 25px;
-    background-color: green
+    padding: 5px;
+    background-color: rgba(255, 255, 84, 0.7);
 }
 
 #h2pad {
@@ -188,4 +188,10 @@ img:hover:not(.fairmont) {
     background-color: rgba(255, 255, 84,0.5);
     padding: 10px;
     border-radius: 25px;
+}
+#bluerosa{
+    color: rgba(20, 32, 255);
+}
+#redstreet{
+    color: rgba(255, 20, 67);
 }
